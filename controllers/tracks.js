@@ -35,7 +35,7 @@ router.get('/:trackId',async (req, res) => {
     }
 })
 
-module.exports = router;
+
 
 router.delete('/:trackId',async (req, res) => {
     try {
