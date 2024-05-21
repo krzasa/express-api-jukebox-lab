@@ -1,5 +1,8 @@
 const express = require('express')
 const router = express.Router();
+const methodOverride = require('method-override');
+
+app.use(methodOverride('_method'));
 
 const Track =require('../models/track.js')
 
